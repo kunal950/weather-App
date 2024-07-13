@@ -7,7 +7,8 @@
 }
 .app{
   min-height: 100vh;
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #e2d4ff;
-
 }

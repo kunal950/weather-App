@@ -83,18 +83,8 @@ const Weather = () => {
           <p className="temp">{weatherdata.temperature}°C</p>
 
           <p className="location">
-            {weatherdata.location} , {weatherdata.country}
+            {weatherdata.location},{weatherdata.country}
           </p>
-          <div className="max-min">
-            <div className="min">
-              <p className="mintemp">{weatherdata.min_temperature}°C</p>
-              <p>min</p>
-            </div>
-            <div className="min">
-              <p className="maxtemp">{weatherdata.max_temperature}°C</p>
-              <p>max</p>
-            </div>
-          </div>
           <div className="wether-data">
             <div className="col">
               <img src={humidity} alt="" />
